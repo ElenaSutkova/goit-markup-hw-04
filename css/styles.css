@@ -5,7 +5,8 @@
    --main-brand-cl: #4D5AE5;
    --main-interaction-cl: #404BBF;
    --main-light-cl: #F4F4FD;
-   --main-cornflower: #E7E9FC
+   --main-cornflower: #E7E9FC;
+   --main-background-img: rgba(46, 47, 66, 0.70)
 }
 
 
@@ -147,6 +148,8 @@ text-decoration: none;
     color: var(--main-interaction-cl);
 }
 
+
+
 .header-address {
     font-style: normal;
     
@@ -200,10 +203,20 @@ text-decoration: none;
 */
 
 .hero {
-    background: var(--main-dark-cl);
+    background-color: var(--main-dark-cl);
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+     url(../images/hw4/people-office\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px; 
+    margin: 0 auto;
+    
+
 }
+
 
 .hero-title {
     font-weight: 700;
@@ -408,6 +421,8 @@ gap: 24px;
     letter-spacing: 0.02em;
     color: var(--main-text-cl);
 }
+
+
 
 
 
