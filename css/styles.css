@@ -6,7 +6,8 @@
    --main-interaction-cl: #404BBF;
    --main-light-cl: #F4F4FD;
    --main-cornflower: #E7E9FC;
-   --main-background-img: rgba(46, 47, 66, 0.70)
+   --main-background-img: rgba(46, 47, 66, 0.70);
+   --main-border-customs: #8E8F99;
 }
 
 
@@ -141,12 +142,14 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--main-dark-cl);
     padding: 24px 0;
+   
 }
 
 .header-link:hover,
 .header-link:focus {
     color: var(--main-interaction-cl);
 }
+
 
 
 
@@ -268,6 +271,7 @@ text-decoration: none;
 
 }
 
+
 .benefits-title {
     
 }
@@ -388,12 +392,15 @@ gap: 24px;
     list-style-type: none; 
     display: flex;
     gap: 24px;
-    
 }
 
 .team-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow:
+        0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-img {}
@@ -420,6 +427,45 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-cl);
+}
+
+
+
+
+/**
+  |============================
+  | Customers styles
+  |============================
+*/
+
+
+.customers {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.customers-title {}
+
+.customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.customer-item {}
+
+.customers-link {
+    display: flex;
+    width: 168px;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--main-border-customs);
+    border-radius: 4px;
+}
+
+.customer-icon {
+    fill: var(--main-border-customs);
 }
 
 
