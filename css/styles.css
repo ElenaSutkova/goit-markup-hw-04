@@ -444,7 +444,15 @@ gap: 24px;
     padding-top: 120px;
 }
 
-.customers-title {}
+.customers-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+}
 
 .customers-list {
     display: flex;
@@ -452,7 +460,8 @@ gap: 24px;
     gap: 24px;
 }
 
-.customer-item {}
+.customer-item {}  
+
 
 .customers-link {
     display: flex;
@@ -468,6 +477,11 @@ gap: 24px;
     fill: var(--main-border-customs);
 }
 
+.customers-link:hover,
+.customer-icon:hover {
+    fill:var(--main-interaction-cl);
+    border-color: var(--main-interaction-cl);
+}
 
 
 
