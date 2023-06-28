@@ -271,10 +271,33 @@ text-decoration: none;
 
 }
 
-
-.benefits-title {
-    
+/* benefits icon */
+.benefits-list-svg {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    list-style-type: none;
+    margin: 0 auto;
 }
+
+.benefits-item-svg {}
+
+.benefits-div {
+    display: flex;
+    width: 264px;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-light-cl);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.benefits-icon {}
+
+
+.benefits-title {}
+
 
 .visually-hidden {
     position: absolute;
@@ -316,7 +339,7 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-cl);
-    padding-top: 8px;
+    
 }
 
 
@@ -427,6 +450,30 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-cl);
+}
+
+
+.team-svg-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-svg-item {
+
+}
+
+
+.team-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    
+}
+
+.team-svg {
+    
 }
 
 
