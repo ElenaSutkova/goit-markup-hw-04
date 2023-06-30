@@ -462,6 +462,7 @@ text-decoration: none;
     justify-content: center;
     gap: 24px;
     
+    
 }
 
 .team-svg-item {
@@ -487,7 +488,9 @@ text-decoration: none;
     
 }
 
-.team-svg {}
+.team-svg {
+    fill: var(--main-light-cl);
+}
 
 
 
