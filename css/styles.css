@@ -131,7 +131,7 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-interaction-cl);
+    color: var(--main-dark-cl);
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
@@ -147,13 +147,18 @@ text-decoration: none;
     height: 4px;
     background-color: var(--main-interaction-cl);
     border-radius: 2px;
-    bottom: -1px;
+    bottom: -2px;
 
 }
 
-.header-link:hover {
+
+.header-link.active {
+    color: var(--main-interaction-cl);   
+}
+
+.header-link:hover,
+.header-link:focus {
     color: var(--main-interaction-cl);
-    
 }
 
 
@@ -545,7 +550,6 @@ text-decoration: none;
 
 .customer-icon {
     fill: currentColor;
-    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -696,7 +700,8 @@ text-decoration: none;
     justify-content: center;
 }
 
-.navigation-button:hover{
+.navigation-button:hover,
+.navigation-button:focus {
     background-color: var(--main-interaction-cl);
     color: var(--main-white-cl);
     cursor: pointer;
